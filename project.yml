@@ -1,0 +1,48 @@
+name: MScan
+options:
+  minimumXcodeGenVersion: 2.44.0
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+packages:
+  ScannerPackage:
+    path: .
+targets:
+  MScanDesktop:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/MScan
+      - path: Packaging
+        buildPhase: resources
+        includes: ["MScan.icns"]
+      - path: LICENSE
+        buildPhase: resources
+      - path: Packaging/Localization
+        buildPhase: resources
+    dependencies:
+      - package: ScannerPackage
+        product: MScanCore
+    settings:
+      base:
+        PRODUCT_NAME: MScan
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.mscan-project.MScan
+        INFOPLIST_FILE: Packaging/Info.plist
+
+        CODE_SIGN_STYLE: Manual
+
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: YES
+        MARKETING_VERSION: 1.1.0
+        CURRENT_PROJECT_VERSION: 2
+        SWIFT_VERSION: 5.0
+schemes:
+  MScan Mac:
+    build:
+      targets:
+        MScanDesktop: all
+    run:
+      config: Debug
+    archive:
+      config: Release

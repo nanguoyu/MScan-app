@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FE5C747D3235E577FB660E /* NetworkDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160A2662F12C1CFF03012538 /* NetworkDiagnostics.swift */; };
+		11AE246B8DC404AE061BAE1C /* MScanCore in Frameworks */ = {isa = PBXBuildFile; productRef = 30DAA3904E24B228789CA85E /* MScanCore */; };
+		18E2B0E30091E7F1A77EE9A3 /* SpeedDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71718910820BD60A2A0DFB8B /* SpeedDiagnostics.swift */; };
+		2ACBC228A5EE64C7408E48BD /* DNSDiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8165E664E4606DF6846BB /* DNSDiagnosticsView.swift */; };
+		2DD7F9FDA947A5710AEE94C2 /* Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BB359AA4947147D5F0110 /* Inspector.swift */; };
+		368D5B38B852E61F8B5E16C0 /* PublicIPComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DC0E3686D375CC0AE3824 /* PublicIPComparison.swift */; };
+		379AA3839979A6E803F15A65 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BA40FF4F3E60A814D0796 /* Scanner.swift */; };
+		3C6F7AB6954E2C1C40787EF9 /* AuxiliaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECEE98CE824FF9A70C2F5E1 /* AuxiliaryViews.swift */; };
+		4AABA818D634AE5B3FE88179 /* WebRTCDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644A2F198CCD02339E2CC7B /* WebRTCDiagnostics.swift */; };
+		51EE31D0D7CEA7F92C4288F7 /* IPOriginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6416C192D70478776B894E4 /* IPOriginView.swift */; };
+		6A17F1F42A92CD9862AA434B /* DeviceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D72E9FDDEE204B64F9584 /* DeviceTable.swift */; };
+		6C360B1BE9674A0C07FE9C7D /* PublicIPLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F74E196C8E0A9D5CC80065 /* PublicIPLookupView.swift */; };
+		6DE4F35D30CCA76A781F1324 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C49CF66980D6553D22F82 /* Inventory.swift */; };
+		758A6CB1E1CA643597E485CE /* PublicIPLookupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF53E5BF9D613856D79E5B3 /* PublicIPLookupService.swift */; };
+		792C2F0562AACA25014DAB79 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A55E486EBE54E72D6C465 /* MainWindow.swift */; };
+		86B118970D8D20D4781D5C03 /* NetworkOriginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92425CB7F2345B0AB02B8068 /* NetworkOriginService.swift */; };
+		873AC52A0A84BF3FB7F45731 /* ScanRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FAF597FD102AD083D73E6 /* ScanRail.swift */; };
+		8C4DFFBA2935A751399E1C56 /* ScanPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74809391FD90062E6322B294 /* ScanPrint.swift */; };
+		960034234CAB552AA8D2F3E7 /* NativeLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E88A8F24B75FFEA78BFC2 /* NativeLanguage.swift */; };
+		9BAD0C68BBE1DCE1D58B742F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB6A8FC3C9454FD71029213B /* InfoPlist.strings */; };
+		A3EBC0AF5A964407DFE33B9F /* SoftwareUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805A820F19C6096270E9A29C /* SoftwareUpdates.swift */; };
+		AD117D9B221842C931BECC4C /* PublicIPLookupParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D794B0E93E93389191404 /* PublicIPLookupParser.swift */; };
+		B1F8D64EC1389D9D4B86349F /* GeoMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DBF8C66D5B8432AA3A9AC /* GeoMap.swift */; };
+		C8609209B84C8FF75945D6AD /* MScan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 021328DEB11686E4EE8799D8 /* MScan.icns */; };
+		DC6B3D5AE8439857F02AFF08 /* NetworkOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADE94E4FB1BFE7F858A7BF /* NetworkOverview.swift */; };
+		E7F19CA4D8C8148AD4AD521F /* ConnectivityHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37736BFA64BE9812125F3E46 /* ConnectivityHTTP.swift */; };
+		EA7E100830ED411B9AC2C098 /* GeoKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F83DD0391DBFA7CF50C66 /* GeoKeyStore.swift */; };
+		EDF2D1E1085E45D5CC1ADE6D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1741E4294DFF3F8308D9F392 /* LICENSE */; };
+		F24E8F99FF658D761DB94343 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CB246E37C702495723B0B /* Library.swift */; };
+		F414B27733FEC1AB22E06D73 /* MScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E15377FC7C8B458527EC8AB /* MScanApp.swift */; };
+		F4538B95EC658DFCC8BFF7BA /* ConnectivityDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF232DAD2BDD147141E555 /* ConnectivityDiagnostics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021328DEB11686E4EE8799D8 /* MScan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MScan.icns; sourceTree = "<group>"; };
+		0C3CB246E37C702495723B0B /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		0ECEE98CE824FF9A70C2F5E1 /* AuxiliaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxiliaryViews.swift; sourceTree = "<group>"; };
+		160A2662F12C1CFF03012538 /* NetworkDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDiagnostics.swift; sourceTree = "<group>"; };
+		1741E4294DFF3F8308D9F392 /* LICENSE */ = {isa = PBXFileReference; path = LICENSE; sourceTree = "<group>"; };
+		248FAF597FD102AD083D73E6 /* ScanRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRail.swift; sourceTree = "<group>"; };
+		37736BFA64BE9812125F3E46 /* ConnectivityHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHTTP.swift; sourceTree = "<group>"; };
+		4A7E88A8F24B75FFEA78BFC2 /* NativeLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeLanguage.swift; sourceTree = "<group>"; };
+		4D285B4018FF4B5A00B464D0 /* MScan-app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "MScan-app"; path = .; sourceTree = SOURCE_ROOT; };
+		4E15377FC7C8B458527EC8AB /* MScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MScanApp.swift; sourceTree = "<group>"; };
+		50ADE94E4FB1BFE7F858A7BF /* NetworkOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOverview.swift; sourceTree = "<group>"; };
+		648DBF8C66D5B8432AA3A9AC /* GeoMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMap.swift; sourceTree = "<group>"; };
+		6644A2F198CCD02339E2CC7B /* WebRTCDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCDiagnostics.swift; sourceTree = "<group>"; };
+		6DF53E5BF9D613856D79E5B3 /* PublicIPLookupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicIPLookupService.swift; sourceTree = "<group>"; };
+		70EF232DAD2BDD147141E555 /* ConnectivityDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityDiagnostics.swift; sourceTree = "<group>"; };
+		71718910820BD60A2A0DFB8B /* SpeedDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedDiagnostics.swift; sourceTree = "<group>"; };
+		73E8165E664E4606DF6846BB /* DNSDiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSDiagnosticsView.swift; sourceTree = "<group>"; };
+		74809391FD90062E6322B294 /* ScanPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPrint.swift; sourceTree = "<group>"; };
+		79115F5A27F095AE65638625 /* MScanDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MScanDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1C49CF66980D6553D22F82 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		805A820F19C6096270E9A29C /* SoftwareUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareUpdates.swift; sourceTree = "<group>"; };
+		92425CB7F2345B0AB02B8068 /* NetworkOriginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOriginService.swift; sourceTree = "<group>"; };
+		A9B3ACA9D75CA8C04928EA9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0710510A5E0821B30B404CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B53F83DD0391DBFA7CF50C66 /* GeoKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoKeyStore.swift; sourceTree = "<group>"; };
+		C48D794B0E93E93389191404 /* PublicIPLookupParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicIPLookupParser.swift; sourceTree = "<group>"; };
+		CA8DC0E3686D375CC0AE3824 /* PublicIPComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicIPComparison.swift; sourceTree = "<group>"; };
+		D6416C192D70478776B894E4 /* IPOriginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPOriginView.swift; sourceTree = "<group>"; };
+		D81BA40FF4F3E60A814D0796 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		E5F74E196C8E0A9D5CC80065 /* PublicIPLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicIPLookupView.swift; sourceTree = "<group>"; };
+		EC0A55E486EBE54E72D6C465 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		ED1BB359AA4947147D5F0110 /* Inspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspector.swift; sourceTree = "<group>"; };
+		EF1D72E9FDDEE204B64F9584 /* DeviceTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D22B37E13263163F23931BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AE246B8DC404AE061BAE1C /* MScanCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2469F2B0C5189499700C4DF4 = {
+			isa = PBXGroup;
+			children = (
+				1741E4294DFF3F8308D9F392 /* LICENSE */,
+				A1A878F0FBB596C4A6F9BCAC /* Packages */,
+				5A08F7E06A5EC6CAA5A0090E /* Packaging */,
+				58B166B463630DCF8B6DD98D /* Sources */,
+				D248D2FB02FB6FEA821231EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3193437050217895C13027B2 /* MScan */ = {
+			isa = PBXGroup;
+			children = (
+				0ECEE98CE824FF9A70C2F5E1 /* AuxiliaryViews.swift */,
+				70EF232DAD2BDD147141E555 /* ConnectivityDiagnostics.swift */,
+				37736BFA64BE9812125F3E46 /* ConnectivityHTTP.swift */,
+				EF1D72E9FDDEE204B64F9584 /* DeviceTable.swift */,
+				73E8165E664E4606DF6846BB /* DNSDiagnosticsView.swift */,
+				B53F83DD0391DBFA7CF50C66 /* GeoKeyStore.swift */,
+				648DBF8C66D5B8432AA3A9AC /* GeoMap.swift */,
+				ED1BB359AA4947147D5F0110 /* Inspector.swift */,
+				7F1C49CF66980D6553D22F82 /* Inventory.swift */,
+				D6416C192D70478776B894E4 /* IPOriginView.swift */,
+				0C3CB246E37C702495723B0B /* Library.swift */,
+				EC0A55E486EBE54E72D6C465 /* MainWindow.swift */,
+				4E15377FC7C8B458527EC8AB /* MScanApp.swift */,
+				4A7E88A8F24B75FFEA78BFC2 /* NativeLanguage.swift */,
+				160A2662F12C1CFF03012538 /* NetworkDiagnostics.swift */,
+				92425CB7F2345B0AB02B8068 /* NetworkOriginService.swift */,
+				50ADE94E4FB1BFE7F858A7BF /* NetworkOverview.swift */,
+				CA8DC0E3686D375CC0AE3824 /* PublicIPComparison.swift */,
+				C48D794B0E93E93389191404 /* PublicIPLookupParser.swift */,
+				6DF53E5BF9D613856D79E5B3 /* PublicIPLookupService.swift */,
+				E5F74E196C8E0A9D5CC80065 /* PublicIPLookupView.swift */,
+				D81BA40FF4F3E60A814D0796 /* Scanner.swift */,
+				74809391FD90062E6322B294 /* ScanPrint.swift */,
+				248FAF597FD102AD083D73E6 /* ScanRail.swift */,
+				805A820F19C6096270E9A29C /* SoftwareUpdates.swift */,
+				71718910820BD60A2A0DFB8B /* SpeedDiagnostics.swift */,
+				6644A2F198CCD02339E2CC7B /* WebRTCDiagnostics.swift */,
+			);
+			path = MScan;
+			sourceTree = "<group>";
+		};
+		58B166B463630DCF8B6DD98D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3193437050217895C13027B2 /* MScan */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5A08F7E06A5EC6CAA5A0090E /* Packaging */ = {
+			isa = PBXGroup;
+			children = (
+				021328DEB11686E4EE8799D8 /* MScan.icns */,
+				6AE4F1F214556E18E48D8CD1 /* Localization */,
+			);
+			path = Packaging;
+			sourceTree = "<group>";
+		};
+		6AE4F1F214556E18E48D8CD1 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				EB6A8FC3C9454FD71029213B /* InfoPlist.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		A1A878F0FBB596C4A6F9BCAC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4D285B4018FF4B5A00B464D0 /* MScan-app */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D248D2FB02FB6FEA821231EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79115F5A27F095AE65638625 /* MScanDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02EB15BDE915EFA73CF0674 /* MScanDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19120418BC7D41087BF76F2 /* Build configuration list for PBXNativeTarget "MScanDesktop" */;
+			buildPhases = (
+				D081F82935538DCAC8B0084D /* Sources */,
+				0DB76F2615098750A386841D /* Resources */,
+				4D22B37E13263163F23931BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MScanDesktop;
+			packageProductDependencies = (
+				30DAA3904E24B228789CA85E /* MScanCore */,
+			);
+			productName = MScanDesktop;
+			productReference = 79115F5A27F095AE65638625 /* MScanDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA053A72A4B40513C6D2CF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D02EB15BDE915EFA73CF0674 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7E4B12E0F8F87177A54BA0BE /* Build configuration list for PBXProject "MScan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 2469F2B0C5189499700C4DF4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1F5A07F5B7A594DD294AA40 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D248D2FB02FB6FEA821231EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02EB15BDE915EFA73CF0674 /* MScanDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB76F2615098750A386841D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAD0C68BBE1DCE1D58B742F /* InfoPlist.strings in Resources */,
+				EDF2D1E1085E45D5CC1ADE6D /* LICENSE in Resources */,
+				C8609209B84C8FF75945D6AD /* MScan.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D081F82935538DCAC8B0084D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6F7AB6954E2C1C40787EF9 /* AuxiliaryViews.swift in Sources */,
+				F4538B95EC658DFCC8BFF7BA /* ConnectivityDiagnostics.swift in Sources */,
+				E7F19CA4D8C8148AD4AD521F /* ConnectivityHTTP.swift in Sources */,
+				2ACBC228A5EE64C7408E48BD /* DNSDiagnosticsView.swift in Sources */,
+				6A17F1F42A92CD9862AA434B /* DeviceTable.swift in Sources */,
+				EA7E100830ED411B9AC2C098 /* GeoKeyStore.swift in Sources */,
+				B1F8D64EC1389D9D4B86349F /* GeoMap.swift in Sources */,
+				51EE31D0D7CEA7F92C4288F7 /* IPOriginView.swift in Sources */,
+				2DD7F9FDA947A5710AEE94C2 /* Inspector.swift in Sources */,
+				6DE4F35D30CCA76A781F1324 /* Inventory.swift in Sources */,
+				F24E8F99FF658D761DB94343 /* Library.swift in Sources */,
+				F414B27733FEC1AB22E06D73 /* MScanApp.swift in Sources */,
+				792C2F0562AACA25014DAB79 /* MainWindow.swift in Sources */,
+				960034234CAB552AA8D2F3E7 /* NativeLanguage.swift in Sources */,
+				00FE5C747D3235E577FB660E /* NetworkDiagnostics.swift in Sources */,
+				86B118970D8D20D4781D5C03 /* NetworkOriginService.swift in Sources */,
+				DC6B3D5AE8439857F02AFF08 /* NetworkOverview.swift in Sources */,
+				368D5B38B852E61F8B5E16C0 /* PublicIPComparison.swift in Sources */,
+				AD117D9B221842C931BECC4C /* PublicIPLookupParser.swift in Sources */,
+				758A6CB1E1CA643597E485CE /* PublicIPLookupService.swift in Sources */,
+				6C360B1BE9674A0C07FE9C7D /* PublicIPLookupView.swift in Sources */,
+				8C4DFFBA2935A751399E1C56 /* ScanPrint.swift in Sources */,
+				873AC52A0A84BF3FB7F45731 /* ScanRail.swift in Sources */,
+				379AA3839979A6E803F15A65 /* Scanner.swift in Sources */,
+				A3EBC0AF5A964407DFE33B9F /* SoftwareUpdates.swift in Sources */,
+				18E2B0E30091E7F1A77EE9A3 /* SpeedDiagnostics.swift in Sources */,
+				4AABA818D634AE5B3FE88179 /* WebRTCDiagnostics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB6A8FC3C9454FD71029213B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B3ACA9D75CA8C04928EA9C /* en */,
+				B0710510A5E0821B30B404CB /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		408CEC32B34F01D0C635E676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Packaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.mscan-project.MScan";
+				PRODUCT_NAME = MScan;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7AB3E71F8946B69CE3820DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98144ACCF0C3575935AAE76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Packaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.mscan-project.MScan";
+				PRODUCT_NAME = MScan;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA8B170618BCFE2BF0A61CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4B12E0F8F87177A54BA0BE /* Build configuration list for PBXProject "MScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB3E71F8946B69CE3820DEA /* Debug */,
+				CA8B170618BCFE2BF0A61CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D19120418BC7D41087BF76F2 /* Build configuration list for PBXNativeTarget "MScanDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408CEC32B34F01D0C635E676 /* Debug */,
+				98144ACCF0C3575935AAE76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D1F5A07F5B7A594DD294AA40 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30DAA3904E24B228789CA85E /* MScanCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MScanCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA053A72A4B40513C6D2CF8D /* Project object */;
+}

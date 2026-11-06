@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleDevelopmentRegion</key><string>en</string>
+    <key>CFBundleLocalizations</key><array><string>en</string><string>zh-Hans</string></array>
+    <key>CFBundleDisplayName</key><string>MScan</string>
+    <key>CFBundleName</key><string>MScan</string>
+    <key>CFBundleExecutable</key><string>MScan</string>
+    <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.1.0</string>
+    <key>CFBundleVersion</key><string>2</string>
+    <key>CFBundleIconFile</key><string>MScan.icns</string>
+    <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSLocalNetworkUsageDescription</key><string>MScan uses the network interface you choose to discover devices, resolve Bonjour names, ping addresses, and check TCP ports.</string>
+    <key>NSBonjourServices</key><array>
+        <string>_device-info._tcp</string><string>_airplay._tcp</string><string>_raop._tcp</string>
+        <string>_ipp._tcp</string><string>_ipps._tcp</string><string>_googlecast._tcp</string>
+        <string>_workstation._tcp</string><string>_smb._tcp</string><string>_hap._tcp</string>
+        <string>_spotify-connect._tcp</string><string>_sonos._tcp</string><string>_http._tcp</string>
+    </array>
+</dict></plist>

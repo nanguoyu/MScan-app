@@ -1,0 +1,16 @@
+"title" = "Software updates";
+"menu" = "Check for Updates…";
+"check" = "Check Now";
+"checking" = "Checking…";
+"build" = "Build %@";
+"automatic" = "Check GitHub for updates once a day";
+"available" = "MScan %@ is available";
+"release" = "Release Notes";
+"download" = "Download for Mac";
+"unpublished" = "No published release found · Checked %@";
+"current" = "Up to date · Checked %@";
+"checked" = "Last checked %@";
+"error.connection" = "Couldn’t connect to GitHub. Check your network and try again.";
+"error.rate" = "GitHub is limiting requests. Try again later.";
+"error.response" = "GitHub didn’t return a valid stable release. Try again later.";
+"error.version" = "This build has no comparable version number.";

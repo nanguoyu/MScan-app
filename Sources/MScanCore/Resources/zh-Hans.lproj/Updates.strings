@@ -1,0 +1,16 @@
+"title" = "软件更新";
+"menu" = "检查更新…";
+"check" = "立即检查";
+"checking" = "正在检查…";
+"build" = "构建版本 %@";
+"automatic" = "每天从 GitHub 检查更新";
+"available" = "MScan %@ 可更新";
+"release" = "查看发行说明";
+"download" = "下载 Mac 版";
+"unpublished" = "尚无公开发行版 · 检查于 %@";
+"current" = "已是最新版本 · 检查于 %@";
+"checked" = "上次检查于 %@";
+"error.connection" = "无法连接到 GitHub。请检查网络后重试。";
+"error.rate" = "GitHub 正在限制请求频率。请稍后重试。";
+"error.response" = "GitHub 未返回有效的正式版本。请稍后重试。";
+"error.version" = "当前构建缺少可供比较的版本号。";

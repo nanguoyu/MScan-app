@@ -1,0 +1,16 @@
+MScan offline device catalogs
+
+vendors.tsv contains assignment prefixes and assignees from the IEEE registries.
+Derived from the CC0 vendor database published by macadress.com.
+https://macadress.com/downloads/vendors.csv
+https://macadress.com/data-sources
+https://creativecommons.org/publicdomain/zero/1.0/
+Upstream CSV SHA-256: be38586e917e365e03a699870dfe46c3c1e389216d5857aabc05236ffec72995
+The table stores vendor names and prefixes only. It omits postal addresses.
+
+models.tsv maps device identifiers, model numbers and board codes to product
+names. Derived from AppleDB's device catalog under the MIT license.
+https://api.appledb.dev/device/main.json
+https://github.com/littlebyteorg/appledb
+Upstream JSON SHA-256: 89766f6e267deb3b38ff4fbb3a8f534198636e86e1a11eceac7801d7dc1b6f3c
+See AppleDB-LICENSE.txt for the copyright notice and license.
